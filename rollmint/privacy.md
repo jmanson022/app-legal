@@ -6,8 +6,6 @@ permalink: /rollmint/privacy
 
 _Effective date: [PUBLISH DATE] · Last updated: [PUBLISH DATE]_
 
-<!-- Set both dates to the day this page is merged and published. -->
-
 Rollmint is an iPhone app by Joshua Manson ("we", "us") that helps you review, pick, search and delete photos and videos in your photo library. This policy explains what happens to your information when you use it.
 
 ## Summary
@@ -17,7 +15,7 @@ Rollmint is an iPhone app by Joshua Manson ("we", "us") that helps you review, p
 - **No accounts, no ads, no tracking, and no analytics SDKs.** We run no servers that receive your data.
 
 ## Photos and videos
-Rollmint asks for access to your photo library so it can show you your photos and videos and delete the ones you choose. All of this happens on your device: browsing, grouping by year and month, showing month collages, filtering screenshots, and analyzing and searching photos. Month collages and photo analysis use only small thumbnails already on your device: they never download anything from iCloud and use no network connection. When you open a photo or video to view or play it, iOS may download it from iCloud if it's stored only there (see [iCloud Photos](#icloud-photos)). Rollmint itself never uploads anything.
+Rollmint asks for access to your photo library so it can show you your photos and videos and delete the ones you choose. All of this happens on your device: browsing, grouping by year and month, showing month collages, filtering screenshots, and analyzing and searching photos. Month collages and photo analysis use only small thumbnails already on your device: they never download anything from iCloud and use no network connection. When you open a photo or video to view or play it, iOS may download it from iCloud if it's stored only there (see [iCloud Photos](#icloud-photos)). Rollmint itself never uploads your photos or videos.
 
 Deletions go through Apple's photo library framework, and iOS asks you to confirm before anything is deleted (one confirmation for each batch you delete). Deleted items move to Recently Deleted in the Photos app, where iOS keeps them for up to 30 days. Your keep, delete and pick choices and your deletion counts are stored only on your device.
 
@@ -52,10 +50,10 @@ If you use iCloud Photos, Apple keeps your library in sync across your devices. 
 Rollmint offers a one-time "Rollmint Pro" purchase.
 - **Apple** handles all payments through the App Store. We never see or receive your payment details. Apple's privacy policy applies: <https://www.apple.com/legal/privacy/>.
 - **RevenueCat, Inc.** is the service we use to check and restore purchases. When Rollmint checks your Pro status, or when you buy or restore, Rollmint sends RevenueCat two kinds of data:
-  - **Purchase history:** the App Store transaction and receipt details.
-  - **Identifiers:** a random anonymous app user ID that RevenueCat generates, and your device's identifier for vendor (an ID iOS gives to apps from the same developer on your device; it isn't the advertising identifier).
+  - **Purchase history:** the App Store transaction and receipt details. RevenueCat keeps this record under a random anonymous ID that RevenueCat generates for your copy of Rollmint. That anonymous ID isn't tied to your name, email or Apple ID. It is stored only in Rollmint on your iPhone, so a new one is created if you delete and reinstall Rollmint (restoring your purchase connects the new anonymous ID to it).
+  - **Device identifier:** your device's identifier for vendor, an ID iOS gives to apps from the same developer on your device. It isn't the advertising identifier.
 
-   That ID is stored only in Rollmint on your iPhone, so it resets if you delete and reinstall Rollmint (restoring your purchase connects the new ID to it). RevenueCat also receives basic technical details needed to answer each request: the app and iOS version, your locale and App Store currency, and the IP address of the connection.
+  RevenueCat also receives basic technical details needed to answer each request: the app and iOS version, your locale and App Store currency, and the IP address of the connection.
   - The purchase history and the device identifier are used to provide app functionality (unlocking Pro and restoring it) and for aggregate purchase statistics in RevenueCat's dashboard (for example, how many people bought Pro).
   - Neither is **linked to your identity** (we don't give RevenueCat your name, email or Apple Account), and neither is **used for tracking** or advertising.
   - RevenueCat's privacy policy applies: <https://www.revenuecat.com/privacy>.
@@ -72,7 +70,7 @@ Rollmint does not track you across apps or websites and shows no ads. It contain
   - Use Settings › Reset review progress to clear choices and picks. Turn off Photo Search to delete the index.
   - Deleting the app removes all of its on-device data. One exception: the free-deletion count and whether Rollmint Pro was unlocked are kept in the iOS Keychain so they survive a reinstall. They hold no personal information.
 - **"Best of" albums and saved recaps** are in your own photo library. You can delete them there.
-- **Purchase history and the device identifier at RevenueCat** are kept by RevenueCat on our behalf under RevenueCat's privacy policy and our agreement with RevenueCat, and can be deleted on request. Because they aren't linked to your identity, we can't look them up by name or email. To ask for access or deletion, email us; we'll ask for details from your App Store purchase receipt to help find the record, and we'll work with RevenueCat on your request.
+- **Purchase history and the device identifier at RevenueCat** are kept by RevenueCat on our behalf under RevenueCat's privacy policy and terms, and can be deleted on request. Because they aren't linked to your identity, we can't look them up by name or email. To ask for access or deletion, email us; we'll ask for details from your App Store purchase receipt to help find the record, and we'll work with RevenueCat on your request.
 - **Emails you send us** are kept only as long as needed to answer you. Ask us to delete them at any time.
 
 ## Your rights

@@ -10,33 +10,22 @@ Rollmint is built with the open-source software listed below. We're grateful to 
 
 ## Components
 
+### Native code
+
 | Component | Licence |
 |---|---|
-| Expo and Expo modules (including expo-image) | MIT |
-| expo-router | MIT |
-| @expo/ui | MIT |
-| React Native | MIT |
-| React and scheduler | MIT |
+| React Native (native code) | MIT |
 | Hermes | MIT |
+| Expo native modules, including @expo/ui | MIT |
 | React Navigation (included in expo-router) | MIT |
 | RevenueCat (purchases-ios) | MIT |
 | RevenueCat PurchasesHybridCommon | MIT |
-| react-native-purchases | MIT |
-| react-native-reanimated | MIT |
-| react-native-worklets | MIT |
-| react-native-screens | MIT |
-| react-native-gesture-handler | MIT |
-| react-native-safe-area-context | MIT |
-| @react-native-async-storage/async-storage (maintained by Krzysztof Borowy) | MIT |
-| @react-native-segmented-control/segmented-control (maintained by M.Haris Baig) | MIT |
-| @react-native-masked-view/masked-view (maintained by Mike Nedosekin) | MIT |
-| react-native-view-shot | MIT |
-| @babel/runtime | MIT |
 | SDWebImage | MIT |
 | SDWebImageAVIFCoder | MIT |
 | SDWebImageSVGCoder | MIT |
 | SDWebImageWebPCoder | MIT |
 | {fmt} | MIT (with the {fmt} optional exception) |
+| fast_float | MIT (fast_float is offered under Apache 2.0, Boost 1.0 or MIT; used here under MIT) |
 | libavif | BSD 2-Clause |
 | libaom 3.0.0 (AV1 codec used by libavif) | BSD 2-Clause, plus the Alliance for Open Media Patent License 1.0 |
 | libvmaf (used by libaom) | BSD-2-Clause-Patent |
@@ -47,34 +36,167 @@ Rollmint is built with the open-source software listed below. We're grateful to 
 | double-conversion | BSD 3-Clause |
 | SocketRocket | BSD 3-Clause |
 
+### JavaScript packages in the app bundle
+
+These 68 packages are compiled into the app's JavaScript bundle. Packages used only to build the app are not included in the app and aren't listed.
+
+| Package | Version | Licence |
+|---|---|---|
+| abort-controller | 3.0.0 | MIT |
+| ansi-styles | 5.2.0 | MIT |
+| base64-js | 1.5.1 | MIT |
+| event-target-shim | 5.0.1 | MIT |
+| expo | 58.0.19 | MIT |
+| expo-application | 58.1.2 | MIT |
+| expo-asset | 58.0.18 | MIT |
+| expo-constants | 58.0.13 | MIT |
+| expo-glass-effect | 58.0.5 | MIT |
+| expo-haptics | 58.0.7 | MIT |
+| expo-image | 58.0.17 | MIT |
+| expo-linking | 58.0.14 | MIT |
+| expo-media-library | 58.0.12 | MIT |
+| expo-modules-core | 58.0.26 | MIT |
+| expo-notifications | 58.1.6 | MIT |
+| expo-router | 58.0.26 | MIT |
+| expo-secure-store | 58.0.2 | MIT |
+| expo-sharing | 58.0.20 | MIT |
+| expo-splash-screen | 58.0.11 | MIT |
+| expo-status-bar | 58.0.4 | MIT |
+| expo-symbols | 58.0.4 | MIT |
+| expo-video | 58.0.12 | MIT |
+| expo-web-browser | 58.0.6 | MIT |
+| @expo/cli | 58.1.15 | MIT |
+| @expo/log-box-utils | 58.0.2 | MIT |
+| @expo/metro | 58.0.0 | MIT |
+| @expo/metro-runtime | 58.0.15 | MIT |
+| flow-enums-runtime | 0.0.6 | MIT |
+| invariant | 2.2.4 | MIT |
+| memoize-one | 5.2.1 | MIT |
+| metro-runtime | 0.87.1 | MIT |
+| nanoid | 3.3.20 | MIT |
+| nullthrows | 1.1.1 | MIT |
+| pretty-format | 29.7.0 | MIT |
+| promise | 8.3.0 | MIT |
+| @radix-ui/react-compose-refs | 1.1.5 | MIT |
+| @radix-ui/react-slot | 1.5.0 | MIT |
+| react | 19.3.0 | MIT |
+| react-fast-compare | 3.2.2 | MIT |
+| react-freeze | 1.0.4 | MIT |
+| react-is | 18.3.1 | MIT |
+| react-native | 0.88.0 | MIT |
+| @react-native-async-storage/async-storage | 2.2.0 | MIT |
+| react-native-gesture-handler | 3.3.0 | MIT |
+| react-native-is-edge-to-edge | 1.3.1 | MIT |
+| @react-native-masked-view/masked-view | 0.3.2 | MIT |
+| react-native-purchases | 10.15.1 | MIT |
+| react-native-reanimated | 4.7.1 | MIT |
+| react-native-safe-area-context | 5.10.1 | MIT |
+| react-native-screens | 4.30.0 | MIT |
+| @react-native-segmented-control/segmented-control | 2.5.7 | MIT |
+| react-native-view-shot | 6.1.1 | MIT |
+| react-native-worklets | 0.13.0 | MIT |
+| @react-native/asset-utils | 0.88.0 | MIT |
+| @react-native/js-polyfills | 0.88.0 | MIT |
+| @react-native/normalize-colors | 0.88.0 | MIT |
+| @react-native/virtualized-lists | 0.88.0 | MIT |
+| regenerator-runtime | 0.13.11 | MIT |
+| @revenuecat/purchases-js-hybrid-mappings | 19.14.1 | MIT |
+| @revenuecat/purchases-typescript-internal | 19.14.1 | MIT |
+| scheduler | 0.28.0 | MIT |
+| semver | 7.8.5 | ISC |
+| stacktrace-parser | 0.1.11 | MIT |
+| standard-navigation | 0.0.5 | MIT |
+| @ungap/structured-clone | 1.4.0 | ISC |
+| warn-once | 0.1.1 | MIT |
+| whatwg-fetch | 3.6.20 | MIT |
+| whatwg-url-minimum | 0.2.0 | MIT |
+
 ## MIT License
 
-The following components are licensed under the MIT License. Each copyright line is quoted from the component's own licence file:
+The following components are licensed under the MIT License. Each copyright line is quoted from the component's own licence file, except where noted.
 
-- **Expo and Expo modules (including expo-image)**: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
-- **expo-router**: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
-- **@expo/ui**: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
-- **React Native**: Copyright (c) Meta Platforms, Inc. and affiliates.
-- **React and scheduler**: Copyright (c) Meta Platforms, Inc. and affiliates.
+Native code:
+
+- **React Native (native code)**: Copyright (c) Meta Platforms, Inc. and affiliates.
 - **Hermes**: Copyright (c) Meta Platforms, Inc. and affiliates.
+- **Expo native modules, including @expo/ui**: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
 - **React Navigation (included in expo-router)**: Copyright (c) 2017 React Navigation Contributors
 - **RevenueCat (purchases-ios)**: Copyright (c) 2024 RevenueCat, Inc.
 - **RevenueCat PurchasesHybridCommon**: Copyright (c) 2019 RevenueCat, Inc.
-- **react-native-purchases**: Copyright (c) 2023 RevenueCat
-- **react-native-reanimated**: Copyright (c) 2016 Software Mansion <swmansion.com>
-- **react-native-worklets**: Copyright (c) 2024 nobody
-- **react-native-screens**: Copyright (c) 2018 Software Mansion <swmansion.com>
-- **react-native-gesture-handler**: Copyright (c) 2016 Software Mansion <swmansion.com>
-- **react-native-safe-area-context**: Copyright (c) 2019 Th3rd Wave
-- **@react-native-async-storage/async-storage (maintained by Krzysztof Borowy)**: Copyright (c) 2015-present, Facebook, Inc.
-- **@react-native-segmented-control/segmented-control (maintained by M.Haris Baig)**: Copyright (c) 2015-present, Facebook, Inc.
-- **@react-native-masked-view/masked-view (maintained by Mike Nedosekin)**: Copyright (c) 2015-present, Facebook, Inc.
-- **react-native-view-shot**: Copyright (c) 2016 Gaëtan Renaudeau
-- **@babel/runtime**: Copyright (c) 2014-present Sebastian McKenzie and other contributors
 - **SDWebImage**: Copyright (c) 2009-2020 Olivier Poitrey rs@dailymotion.com
 - **SDWebImageAVIFCoder**: Copyright (c) 2019 lizhuoli1126@126.com <lizhuoli1126@126.com>
 - **SDWebImageSVGCoder**: Copyright (c) 2018 lizhuoli1126@126.com <lizhuoli1126@126.com>
 - **SDWebImageWebPCoder**: Copyright (c) 2018 Bogdan Poplauschi
+- **fast_float**: Copyright (c) 2021 The fast_float authors
+
+JavaScript packages:
+
+- **abort-controller** 3.0.0: Copyright (c) 2017 Toru Nagashima
+- **ansi-styles** 5.2.0: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+- **base64-js** 1.5.1: Copyright (c) 2014 Jameson Little
+- **event-target-shim** 5.0.1: Copyright (c) 2015 Toru Nagashima
+- **expo** 58.0.19: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-application** 58.1.2: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-asset** 58.0.18: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-constants** 58.0.13: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-glass-effect** 58.0.5: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-haptics** 58.0.7: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-image** 58.0.17: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-linking** 58.0.14: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-media-library** 58.0.12: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-modules-core** 58.0.26: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-notifications** 58.1.6: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-router** 58.0.26: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) (the package has no licence file; notice from Expo)
+- **expo-secure-store** 58.0.2: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-sharing** 58.0.20: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-splash-screen** 58.0.11: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-status-bar** 58.0.4: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-symbols** 58.0.4: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-video** 58.0.12: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-web-browser** 58.0.6: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/cli** 58.1.15: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/log-box-utils** 58.0.2: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro** 58.0.0: Copyright (c) Meta Platforms, Inc. and affiliates.; Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro-runtime** 58.0.15: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **flow-enums-runtime** 0.0.6: Copyright (c) Facebook, Inc. and its affiliates.
+- **invariant** 2.2.4: Copyright (c) 2013-present, Facebook, Inc.
+- **memoize-one** 5.2.1: Copyright (c) 2019 Alexander Reardon
+- **metro-runtime** 0.87.1: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from Metro)
+- **nanoid** 3.3.20: Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>
+- **nullthrows** 1.1.1: Copyright (c) 2016 Andres Suarez
+- **pretty-format** 29.7.0: Copyright (c) Meta Platforms, Inc. and affiliates.
+- **promise** 8.3.0: Copyright (c) 2014 Forbes Lindesay
+- **@radix-ui/react-compose-refs** 1.1.5: Copyright (c) 2022 WorkOS
+- **@radix-ui/react-slot** 1.5.0: Copyright (c) 2022 WorkOS
+- **react** 19.3.0: Copyright (c) Meta Platforms, Inc. and affiliates.
+- **react-fast-compare** 3.2.2: Copyright (c) 2018 Formidable Labs; Copyright (c) 2017 Evgeny Poberezkin
+- **react-freeze** 1.0.4: Copyright (c) 2021 Software Mansion
+- **react-is** 18.3.1: Copyright (c) Facebook, Inc. and its affiliates.
+- **react-native** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@react-native-async-storage/async-storage** 2.2.0: Copyright (c) 2015-present, Facebook, Inc. (package author: Krzysztof Borowy)
+- **react-native-gesture-handler** 3.3.0: Copyright (c) 2016 Software Mansion <swmansion.com>
+- **react-native-is-edge-to-edge** 1.3.1: Copyright (c) 2024 Mathieu Acthernoene
+- **@react-native-masked-view/masked-view** 0.3.2: Copyright (c) 2015-present, Facebook, Inc. (package author: Mike Nedosekin)
+- **react-native-purchases** 10.15.1: Copyright (c) 2023 RevenueCat
+- **react-native-reanimated** 4.7.1: Copyright (c) 2016 Software Mansion <swmansion.com>
+- **react-native-safe-area-context** 5.10.1: Copyright (c) 2019 Th3rd Wave
+- **react-native-screens** 4.30.0: Copyright (c) 2018 Software Mansion <swmansion.com>
+- **@react-native-segmented-control/segmented-control** 2.5.7: Copyright (c) 2015-present, Facebook, Inc. (package author: M.Haris Baig)
+- **react-native-view-shot** 6.1.1: Copyright (c) 2016 Gaëtan Renaudeau
+- **react-native-worklets** 0.13.0: Copyright (c) 2024 nobody
+- **@react-native/asset-utils** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
+- **@react-native/js-polyfills** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
+- **@react-native/normalize-colors** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
+- **@react-native/virtualized-lists** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
+- **regenerator-runtime** 0.13.11: Copyright (c) 2014-present, Facebook, Inc.
+- **@revenuecat/purchases-js-hybrid-mappings** 19.14.1: Copyright (c) 2019 RevenueCat, Inc. (the package has no licence file; notice from RevenueCat PurchasesHybridCommon)
+- **@revenuecat/purchases-typescript-internal** 19.14.1: Copyright (c) 2019 RevenueCat, Inc. (the package has no licence file; notice from RevenueCat PurchasesHybridCommon)
+- **scheduler** 0.28.0: Copyright (c) Meta Platforms, Inc. and affiliates.
+- **stacktrace-parser** 0.1.11: Copyright (c) 2014-2019 Georg Tavonius
+- **standard-navigation** 0.0.5: Copyright (c) Satyajit Sahoo (the package has no licence file; notice from package.json author)
+- **warn-once** 0.1.1: Copyright (c) 2022 Satyajit Sahoo
+- **whatwg-fetch** 3.6.20: Copyright (c) 2014-2023 GitHub, Inc.
+- **whatwg-url-minimum** 0.2.0: Copyright (c) Phil Pluckthun; Copyright (c) 650 Industries, Inc. (aka Expo); Copyright (c) Sebastian Mayr
 
 ```text
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -107,6 +229,27 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+## ISC License
+
+The following JavaScript packages are licensed under the ISC License:
+
+- **semver** 7.8.5: Copyright (c) Isaac Z. Schlueter and Contributors
+- **@ungap/structured-clone** 1.4.0: Copyright (c) 2021, Andrea Giammarchi, @WebReflection
+
+```text
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
 ## libavif: BSD 2-Clause
