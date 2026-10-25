@@ -6,7 +6,7 @@ permalink: /rollmint/privacy
 
 _Effective date: October 25, 2026 · Last updated: October 25, 2026_
 
-Rollmint is an iPhone app by Josh Manson ("we", "us") that helps you review, pick, search and delete photos and videos in your photo library. This policy explains what happens to your information when you use it.
+Rollmint is an iPhone app by Joshua Manson ("we", "us") that helps you review, pick, search and delete photos and videos in your photo library. This policy explains what happens to your information when you use it.
 
 ## Summary
 - **Rollmint never uploads your photos.** It reads, analyzes and deletes them only on your iPhone. Your photos and videos are not sent to us or to anyone else.
@@ -70,4 +70,4 @@ Rollmint is not directed at children and does not knowingly collect personal inf
 If this policy changes, the updated version will be posted on this page with a new "Last updated" date.
 
 ## Contact
-Josh Manson, developer of Rollmint. Email **[RollmintSupport@icloud.com](mailto:RollmintSupport@icloud.com)** or see the [Support page](support).
+Joshua Manson, developer of Rollmint. Email **[RollmintSupport@icloud.com](mailto:RollmintSupport@icloud.com)** or see the [Support page](support).
