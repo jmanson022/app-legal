@@ -1,8 +1,9 @@
 ---
 title: Apps
 ---
-# Apps by Josh Manson
+# Apps by Joshua Manson
 
 ## Rollmint
 - [Privacy Policy](rollmint/privacy)
 - [Support](rollmint/support)
+- [Acknowledgements](rollmint/acknowledgements)
