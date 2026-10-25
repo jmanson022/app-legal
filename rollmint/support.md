@@ -9,19 +9,25 @@ Need help with Rollmint? Email **[RollmintSupport@icloud.com](mailto:RollmintSup
 ## FAQ
 
 **Why didn't my storage go up right away after deleting?**
-Deleted photos and videos move to the **Recently Deleted** album and keep using space until that album is emptied, or until iOS removes them after 30 days. To free the space now, open your photo library's Albums › Recently Deleted › Select › Delete All.
+Deleted photos and videos move to the **Recently Deleted** album and keep using space until it's emptied, or until iOS removes them after up to 30 days. To free the space now: in the Photos app, open Recently Deleted (under Utilities; you may need Face ID or your passcode), tap Select, then Delete All.
 
 **Can I get a photo back?**
-Yes. Within 30 days you can recover it from Albums › Recently Deleted.
+Yes. For up to 30 days you can recover it from Recently Deleted in the Photos app.
 
 **Rollmint only shows some of my photos.**
 You may have given limited access. Go to Settings › Privacy & Security › Photos › Rollmint and choose **Full Access**, or add more photos to your selection.
 
 **Search doesn't find some photos.**
-Rollmint analyzes photos on your iPhone in the background, and a large library can take a while the first time. Photos stored only in iCloud (with Optimize iPhone Storage on) may not be included, because Rollmint never downloads them. Videos aren't included in search.
+Rollmint analyzes photos on your iPhone in the background, and a large library can take a while the first time. Search covers your most recent 5,000 photos. Photos stored only in iCloud (with Optimize iPhone Storage on) may not be included, because Rollmint never downloads them. Videos aren't included in search.
 
 **How do I turn off photo analysis?**
-Open Rollmint › Settings › Photo Search and turn off "Analyze photos on this iPhone". This deletes the analysis from your iPhone.
+Open Rollmint › Settings › Photo Search and turn off "Analyze photos on this iPhone". This deletes the search index from your iPhone.
+
+**Does deleting in Rollmint delete from my other devices?**
+If you use iCloud Photos, yes. Deletions sync to all your devices, and items stay in Recently Deleted for up to 30 days.
+
+**How do I delete Rollmint's data?**
+Turn off Photo Search to delete the search index, use Rollmint › Settings › Reset review progress to clear your choices and picks, or delete the app. For purchase data, see the [Privacy Policy](privacy).
 
 **What are Month Picks?**
 Swipe up (or tap Pick) on up to 9 favorites each month. They're added to a "Best of [Month Year]" album and can become a recap card to save or share.

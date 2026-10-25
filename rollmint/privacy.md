@@ -4,20 +4,22 @@ permalink: /rollmint/privacy
 ---
 # Rollmint Privacy Policy
 
-_Effective date: October 25, 2026 · Last updated: October 25, 2026_
+_Effective date: [PUBLISH DATE] · Last updated: [PUBLISH DATE]_
+
+<!-- Set both dates to the day this page is merged and published. -->
 
 Rollmint is an iPhone app by Joshua Manson ("we", "us") that helps you review, pick, search and delete photos and videos in your photo library. This policy explains what happens to your information when you use it.
 
 ## Summary
-- **Rollmint never uploads your photos.** It reads, analyzes and deletes them only on your iPhone. Your photos and videos are not sent to us or to anyone else.
+- **Rollmint never uploads your photos.** It reads, analyzes and deletes them through iOS on your iPhone, and never sends your photos or videos to us or to anyone else. If you use iCloud Photos, see [iCloud Photos](#icloud-photos) below.
 - **Photo analysis and search happen on your iPhone.** Rollmint uses Apple's on-device Vision framework to recognize what's in your photos (for example "dog", "receipt" or "beach") so you can search them. The results stay on your device.
 - **The only data collected is purchase history,** which RevenueCat processes so your purchase can be unlocked and restored. It is not linked to your identity and not used for tracking.
 - **No accounts, no ads, no tracking, and no analytics SDKs.** We run no servers that receive your data.
 
 ## Photos and videos
-Rollmint asks for access to your photo library so it can show you your photos and videos and delete the ones you choose. All of this happens on your device: browsing, grouping by year and month, showing month collages, filtering screenshots, analyzing and searching photos, and estimating storage. To make the collages and run the analysis, Rollmint uses small thumbnails from your device. It does not download originals from iCloud for this, and it uses no network connection.
+Rollmint asks for access to your photo library so it can show you your photos and videos and delete the ones you choose. All of this happens on your device: browsing, grouping by year and month, showing month collages, filtering screenshots, and analyzing and searching photos. To make the collages and run the analysis, Rollmint uses small thumbnails from your device. It does not download originals from iCloud for this, and the analysis uses no network connection.
 
-Deletions go through Apple's photo library framework, and iOS asks you to confirm each one. Deleted items move to the "Recently Deleted" album, where iOS keeps them for up to 30 days. Your keep, delete and pick choices and your deletion counts are stored only on your device.
+Deletions go through Apple's photo library framework, and iOS asks you to confirm before anything is deleted (one confirmation for each batch you delete). Deleted items move to Recently Deleted in the Photos app, where iOS keeps them for up to 30 days. Your keep, delete and pick choices and your deletion counts are stored only on your device.
 
 You can give Rollmint full or limited photo access, and change it at any time in Settings › Privacy & Security › Photos › Rollmint.
 
@@ -44,12 +46,12 @@ Rollmint can also make a recap image (a 3×3 grid of your picks with simple stat
 If you turn on the Month Picks reminder, Rollmint schedules a **local** notification on your iPhone for the last day of each month. Rollmint uses no push service and no device token, and no notification data leaves your device. You can turn the reminder off in Rollmint › Settings, or in iOS Settings › Notifications › Rollmint.
 
 ## iCloud Photos
-If you use iCloud Photos, Apple keeps your library in sync across your devices. That happens between your devices and Apple, and Rollmint doesn't receive a copy. Deleting an item in Rollmint deletes it from your library on every device that uses iCloud Photos, and it stays in Recently Deleted for 30 days. When you play a video that is stored only in iCloud, iOS may download it from Apple to play it. Rollmint itself never uploads your photos.
+If you use iCloud Photos, Apple keeps your library in sync across your devices. That happens between your devices and Apple, and Rollmint doesn't receive a copy. Deleting an item in Rollmint deletes it from your library on every device that uses iCloud Photos, and it stays in Recently Deleted for up to 30 days. To show or play a photo or video that is stored only in iCloud, iOS may download it from Apple, just as the Photos app does. Photo analysis for search never downloads anything.
 
 ## Purchases (RevenueCat and Apple)
 Rollmint offers a one-time "Rollmint Pro" purchase.
 - **Apple** handles all payments through the App Store. We never see or receive your payment details. Apple's privacy policy applies: <https://www.apple.com/legal/privacy/>.
-- **RevenueCat, Inc.** is the service we use to check and restore purchases. When Rollmint checks your Pro status, or when you buy or restore, RevenueCat processes **purchase history**: the App Store transaction and receipt details, together with a random anonymous app user ID that RevenueCat generates.
+- **RevenueCat, Inc.** is the service we use to check and restore purchases. When Rollmint checks your Pro status, or when you buy or restore, RevenueCat processes **purchase history**: the App Store transaction and receipt details, together with a random anonymous app user ID that RevenueCat generates. That ID is stored only in Rollmint on your iPhone, so it resets if you delete and reinstall Rollmint (restoring your purchase connects the new ID to it). RevenueCat also receives basic technical details needed to answer each request: the app and iOS version, your device's identifier for vendor (an ID iOS gives to apps from the same developer on your device), your locale and App Store currency, and the IP address of the connection.
   - It is used to provide app functionality (unlocking Pro and restoring it) and for aggregate purchase statistics in RevenueCat's dashboard (for example, how many people bought Pro).
   - It is **not linked to your identity** and is **not used for tracking** or advertising.
   - RevenueCat's privacy policy applies: <https://www.revenuecat.com/privacy>.
@@ -64,16 +66,16 @@ Rollmint does not track you across apps or websites and shows no ads. It contain
 - **On your device:**
   - Your choices, picks, stats and the search index stay on your device until you delete them.
   - Use Settings › Reset review progress to clear choices and picks. Turn off Photo Search to delete the index.
-  - Deleting the app removes all of its on-device data. One exception: the free-deletion counter is kept in the device Keychain so it survives a reinstall, and it holds no personal information.
+  - Deleting the app removes all of its on-device data. One exception: the free-deletion count and whether Rollmint Pro was unlocked are kept in the iOS Keychain so they survive a reinstall. They hold no personal information.
 - **"Best of" albums and saved recaps** are in your own photo library. You can delete them there.
-- **Purchase history at RevenueCat** is kept as long as needed to restore your purchase and for RevenueCat's records, under RevenueCat's privacy policy. Because it isn't linked to your identity, we can't look it up by name or email. To ask for access to it or deletion of it, email us with your App Store receipt or order ID from <https://reportaproblem.apple.com>, and we'll work with RevenueCat on your request.
+- **Purchase history at RevenueCat** is kept by RevenueCat on our behalf for as long as it's needed to unlock and restore your purchase, and as RevenueCat's own policies and the law require. It can be deleted on request. Because it isn't linked to your identity, we can't look it up by name or email. To ask for access to it or deletion of it, email us with your App Store receipt or order ID from <https://reportaproblem.apple.com>, and we'll work with RevenueCat on your request.
 - **Emails you send us** are kept only as long as needed to answer you. Ask us to delete them at any time.
 
 ## Your rights
-Depending on where you live, you may have rights to access or delete your personal data. Because Rollmint keeps your data on your device, you can exercise most of them yourself by turning features off, using Reset review progress, or deleting the app. For purchase data held by RevenueCat, email us as described under "Data retention and deletion".
+You can ask us what information we hold about you, or ask us to delete it, by emailing us. Because Rollmint keeps your data on your iPhone, you can also do most of this yourself: turn off Photo Search to delete the search index, use Settings › Reset review progress to clear your choices and picks, or delete the app. For purchase data held by RevenueCat, see "Data retention and deletion" above. We don't sell your personal information or share it for advertising.
 
 ## Children
-Rollmint is not directed at children and does not knowingly collect personal information from anyone.
+Rollmint is not directed at children under 13 and does not knowingly collect personal information from children. The only information processed off your device is the anonymous purchase information described above.
 
 ## Changes
 If this policy changes, the updated version will be posted on this page with a new "Last updated" date.
