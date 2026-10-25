@@ -29,6 +29,8 @@ Rollmint is built with the open-source software listed below. We're grateful to 
 | libavif | BSD 2-Clause |
 | libaom 3.0.0 (AV1 codec used by libavif) | BSD 2-Clause, plus the Alliance for Open Media Patent License 1.0 |
 | libvmaf (used by libaom) | BSD-2-Clause-Patent |
+| libsvm (included in libvmaf) | BSD 3-Clause |
+| Xiph psnr_hvs (included in libvmaf) | BSD-style (Xiph.Org) |
 | libwebp (included in SDWebImageWebPCoder) | BSD 3-Clause, plus Google's additional patent grant |
 | Folly (RCT-Folly) | Apache License 2.0 |
 | Boost | Boost Software License 1.0 |
@@ -193,7 +195,7 @@ JavaScript packages:
 - **@revenuecat/purchases-typescript-internal** 19.14.1: Copyright (c) 2019 RevenueCat, Inc. (the package has no licence file; notice from RevenueCat PurchasesHybridCommon)
 - **scheduler** 0.28.0: Copyright (c) Meta Platforms, Inc. and affiliates.
 - **stacktrace-parser** 0.1.11: Copyright (c) 2014-2019 Georg Tavonius
-- **standard-navigation** 0.0.5: Copyright (c) Satyajit Sahoo (the package has no licence file; notice from package.json author)
+- **standard-navigation** 0.0.5: Copyright (c) 2026 React Navigation Contributors (this version ships without a licence file; notice taken from the project's LICENSE; package author Satyajit Sahoo)
 - **warn-once** 0.1.1: Copyright (c) 2022 Satyajit Sahoo
 - **whatwg-fetch** 3.6.20: Copyright (c) 2014-2023 GitHub, Inc.
 - **whatwg-url-minimum** 0.2.0: Copyright (c) Phil Pluckthun; Copyright (c) 650 Industries, Inc. (aka Expo); Copyright (c) Sebastian Mayr
@@ -467,6 +469,70 @@ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PRO
 SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+## libsvm (included in libvmaf): BSD 3-Clause
+
+```text
+Copyright (c) 2000-2019 Chih-Chung Chang and Chih-Jen Lin
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. Neither name of copyright holders nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+## Xiph psnr_hvs (included in libvmaf): BSD-style
+
+```text
+Copyright 2001-2012 Xiph.Org and contributors.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ## libwebp: BSD 3-Clause
