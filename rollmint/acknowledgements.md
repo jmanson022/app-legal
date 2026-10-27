@@ -18,8 +18,6 @@ Rollmint is built with the open-source software listed below. We're grateful to 
 | Hermes | MIT |
 | Expo native modules, including @expo/ui | MIT |
 | React Navigation (included in expo-router) | MIT |
-| RevenueCat (purchases-ios) | MIT |
-| RevenueCat PurchasesHybridCommon | MIT |
 | SDWebImage | MIT |
 | SDWebImageAVIFCoder | MIT |
 | SDWebImageSVGCoder | MIT |
@@ -40,7 +38,7 @@ Rollmint is built with the open-source software listed below. We're grateful to 
 
 ### JavaScript packages in the app bundle
 
-These 68 packages are compiled into the app's JavaScript bundle. Packages used only to build the app are not included in the app and aren't listed.
+These 65 packages are compiled into the app's JavaScript bundle. Packages used only to build the app are not included in the app and aren't listed.
 
 | Package | Version | Licence |
 |---|---|---|
@@ -90,7 +88,6 @@ These 68 packages are compiled into the app's JavaScript bundle. Packages used o
 | react-native-gesture-handler | 3.3.0 | MIT |
 | react-native-is-edge-to-edge | 1.3.1 | MIT |
 | @react-native-masked-view/masked-view | 0.3.2 | MIT |
-| react-native-purchases | 10.15.1 | MIT |
 | react-native-reanimated | 4.7.1 | MIT |
 | react-native-safe-area-context | 5.10.1 | MIT |
 | react-native-screens | 4.30.0 | MIT |
@@ -102,8 +99,6 @@ These 68 packages are compiled into the app's JavaScript bundle. Packages used o
 | @react-native/normalize-colors | 0.88.0 | MIT |
 | @react-native/virtualized-lists | 0.88.0 | MIT |
 | regenerator-runtime | 0.13.11 | MIT |
-| @revenuecat/purchases-js-hybrid-mappings | 19.14.1 | MIT |
-| @revenuecat/purchases-typescript-internal | 19.14.1 | MIT |
 | scheduler | 0.28.0 | MIT |
 | semver | 7.8.5 | ISC |
 | stacktrace-parser | 0.1.11 | MIT |
@@ -123,8 +118,6 @@ Native code:
 - **Hermes**: Copyright (c) Meta Platforms, Inc. and affiliates.
 - **Expo native modules, including @expo/ui**: Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
 - **React Navigation (included in expo-router)**: Copyright (c) 2017 React Navigation Contributors
-- **RevenueCat (purchases-ios)**: Copyright (c) 2024 RevenueCat, Inc.
-- **RevenueCat PurchasesHybridCommon**: Copyright (c) 2019 RevenueCat, Inc.
 - **SDWebImage**: Copyright (c) 2009-2020 Olivier Poitrey rs@dailymotion.com
 - **SDWebImageAVIFCoder**: Copyright (c) 2019 lizhuoli1126@126.com <lizhuoli1126@126.com>
 - **SDWebImageSVGCoder**: Copyright (c) 2018 lizhuoli1126@126.com <lizhuoli1126@126.com>
@@ -179,7 +172,6 @@ JavaScript packages:
 - **react-native-gesture-handler** 3.3.0: Copyright (c) 2016 Software Mansion <swmansion.com>
 - **react-native-is-edge-to-edge** 1.3.1: Copyright (c) 2024 Mathieu Acthernoene
 - **@react-native-masked-view/masked-view** 0.3.2: Copyright (c) 2015-present, Facebook, Inc. (package author: Mike Nedosekin)
-- **react-native-purchases** 10.15.1: Copyright (c) 2023 RevenueCat
 - **react-native-reanimated** 4.7.1: Copyright (c) 2016 Software Mansion <swmansion.com>
 - **react-native-safe-area-context** 5.10.1: Copyright (c) 2019 Th3rd Wave
 - **react-native-screens** 4.30.0: Copyright (c) 2018 Software Mansion <swmansion.com>
@@ -191,8 +183,6 @@ JavaScript packages:
 - **@react-native/normalize-colors** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
 - **@react-native/virtualized-lists** 0.88.0: Copyright (c) Meta Platforms, Inc. and affiliates. (the package has no licence file; notice from React Native)
 - **regenerator-runtime** 0.13.11: Copyright (c) 2014-present, Facebook, Inc.
-- **@revenuecat/purchases-js-hybrid-mappings** 19.14.1: Copyright (c) 2019 RevenueCat, Inc. (the package has no licence file; notice from RevenueCat PurchasesHybridCommon)
-- **@revenuecat/purchases-typescript-internal** 19.14.1: Copyright (c) 2019 RevenueCat, Inc. (the package has no licence file; notice from RevenueCat PurchasesHybridCommon)
 - **scheduler** 0.28.0: Copyright (c) Meta Platforms, Inc. and affiliates.
 - **stacktrace-parser** 0.1.11: Copyright (c) 2014-2019 Georg Tavonius
 - **standard-navigation** 0.0.5: Copyright (c) 2026 React Navigation Contributors (this version ships without a licence file; notice taken from the project's LICENSE; package author Satyajit Sahoo)
